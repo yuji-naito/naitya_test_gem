@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'naitya_test_gem'
+
+puts NaityaTestGem::Shuffle.run(ARGV[0].to_s)
